@@ -1,0 +1,134 @@
+                                                                         /**  universal property  **/
+
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+.border{
+    border: 1.5px solid transparent;
+   
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+                                                        /**  nav bar    **/
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+                                             /**  box-1  **/
+.nav-logo{
+    padding-top: 12px;
+    padding-left: 5px;
+    height: 43px;
+    width: 128px;
+    /* background-color:blue; */
+}
+
+
+.amazon-logo{
+    background-image: url("img/amazon-logo.png");
+    background-size: cover;
+    height: 45px;
+    width: 128px;
+}
+
+
+
+
+
+                                             /**   box-2    **/
+
+.nav-address{
+    /* background-color: blue; */
+    height: 48px;
+    width: 100px;
+    padding-left: 43px;
+    padding-top: 7px;
+    
+    
+}
+
+
+#box-2-internal-box-1{
+    display: flex;
+    
+}
+
+#box-2-line-1{
+    color: #cccccc;
+    font-size: 0.80rem;
+    margin-bottom: 5px;
+}
+
+#box-2-line-2{
+    margin-left: 4px;
+    
+}
+
+                            /**    box-3   **/
+
+.nav-serch{
+    height: 45px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.nav-serch i {
+    font-size: 1.5rem;
+}
+
+#box-3-box-2{
+    text-align: left;
+    height: 45px;
+    padding: 0;
+    width: 80%;
+    border: none;
+    font-size: 1rem;
+    padding-left: 9px
+}
+
+#box-3-box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    height: 100%;
+    width: 55px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 0.85rem;
+    color: #666666;
+    padding: 9px;
+
+
+}
+
+#box-3-box-3{
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0F1111;
+    background-color: #F3A847;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+}
+                            
